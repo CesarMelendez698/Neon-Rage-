@@ -2,6 +2,7 @@ import { Link } from "react-router-dom" // Importa el componente para navegació
 import { useContext, useState } from "react" // Importa hooks para estado y consumo de contexto.
 import { CartContext } from "../context/CartContext" // Importa el contexto global del carrito.
 
+import logo from "../Img/LogoLetras.png" 
 export default function Navbar() {
   const { cart } = useContext(CartContext); // Extrae la lista de productos del carrito para mostrar el contador.
   const [isOpen, setIsOpen] = useState(false); // Estado para abrir o cerrar el menú en dispositivos móviles.
@@ -28,13 +29,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
           
           {/* LOGO: Enlace que redirige al inicio con estilos de brillo neón */}
-          <Link 
-            to="/#Home" 
-            className="text-2xl font-black text-purple-400 tracking-tighter italic drop-shadow-[0_0_8px_rgba(168,85,247,0.5)] whitespace-nowrap z-[60]"
-          >
-            NEON RAGE
-          </Link>
-          
+       <img 
+  src={logo} 
+  alt="NEON RAGE"
+  className="h-auto max-h-6 md:max-h-8 w-auto object-contain drop-shadow-[0_0_8px_rgba(168,85,247,0.6)]" 
+/>
           {/* BOTÓN HAMBURGUESA: Solo visible en móviles (lg:hidden) */}
           <button 
             onClick={toggleMenu}

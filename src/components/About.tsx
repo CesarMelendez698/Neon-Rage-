@@ -23,9 +23,7 @@ export default function About() {
       {/* 'text-gray-300': color de texto gris suave | 'leading-relaxed': aumenta el interlineado (espacio entre líneas) */}
       {/* 'text-lg': tamaño de fuente ligeramente más grande que el estándar */}
       <p className="max-w-3xl mx-auto text-gray-300 leading-relaxed text-lg">
-        El Rugido del Neón Black Pantherwave es una fusión entre lo salvaje y lo retrofuturista, 
-        donde la pantera símbolo de fuerza y elegancia se convierte en un ícono eléctrico. 
-        Este universo Synthwave late con luces magenta y circuitos felinos.
+        NEON RAGE nace de la vibrante energía nocturna y el destello de las luces, consolidándose como una marca para quienes viven con intensidad, determinación y sin miedo a destacar. Al fusionar lo urbano con lo eléctrico, la marca crea prendas que proyectan fuerza, carácter e identidad auténtica, transformando el acto de vestir en una declaración de presencia absoluta. Con diseños creados para dejar huella a través de la actitud y la seguridad, cada pieza asegura un estilo que nunca pasa desapercibido, demostrando que NEON RAGE es, en esencia, actitud convertida en identidad.
       </p>
     </section>
   )
