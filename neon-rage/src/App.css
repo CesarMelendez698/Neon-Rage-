@@ -1,0 +1,87 @@
+/* ============================
+   RESETEO Y ESTILOS BASE
+   ============================ */
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: black; /* Asegura que el fondo sea siempre negro puro antes de cargar el contenido. */
+}
+
+/* ============================
+   ESTILOS DE LOGO (React/Vite)
+   ============================ */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter; /* Optimiza el rendimiento del navegador para las transiciones de filtros. */
+  transition: filter 300ms;
+}
+
+/* Efecto de resplandor (glow) al pasar el mouse sobre los logos */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animación de rotación para el logo de React */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Solo aplica la rotación si el usuario no tiene activada la opción de "reducir movimiento" en su sistema */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* ============================
+   COMPONENTES GENÉRICOS
+   ============================ */
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* ============================
+   ANIMACIONES NEON RAGE
+   ============================ */
+
+/* 1. Animación de flotación suave (usada en el Logo del Hero) */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); } /* Sube 20 pixeles */
+  100% { transform: translateY(0px); }  /* Vuelve a su posición original */
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite; /* Movimiento infinito y suave */
+}
+
+/* 2. Animación de línea de escaneo (usada en el menú móvil) */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }   /* Inicia fuera de la pantalla (arriba) */
+  100% { transform: translateY(100vh); } /* Termina fuera de la pantalla (abajo) */
+}
+
+.animate-scan {
+  animation: scanline 3s linear infinite; /* Movimiento constante sin pausas */
+}
