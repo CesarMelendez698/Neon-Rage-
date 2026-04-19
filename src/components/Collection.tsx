@@ -272,7 +272,7 @@ export default function Collection() {
           media: [],
           whiteImage: Clasba,
           blackImage: Clasne,
-          description: "Exclusividad en cada detalle."
+          description: "Camisa Oversize 100% Algodón. Una prenda esencial que combina simplicidad y carácter. Esta camiseta blanca de corte clásico destaca por su diseño limpio y versátil, ideal para cualquier ocasión. En el pecho, incorpora un logo discreto en tono morado con forma de pantera estilizada, símbolo de fuerza, elegancia y actitud."
         },
         {
           id: 2,
@@ -281,7 +281,7 @@ export default function Collection() {
           media: [],
           whiteImage: Clasba1,
           blackImage: Clasne1,
-          description: "Estilo disruptivo para la ciudad."
+          description: "Camisa Oversize 100% Algodón. Una prenda esencial que combina simplicidad y carácter. Esta camiseta blanca de corte clásico destaca por su diseño limpio y versátil, ideal para cualquier ocasión. En el pecho, incorpora un logo discreto en tono morado con forma de pantera estilizada, símbolo de fuerza, elegancia y actitud."
         }
       ]
     },
@@ -293,21 +293,21 @@ export default function Collection() {
           name: "No Perfect Edition",
           price: 20,
           media: [videoNoPerfec, No_perfec1, No_perfec2, No_perfec3],
-          description: "Minimalismo al frente con impacto total."
+          description: "Esta camisa oversize de algodón 100% fusiona la energía del graffiti urbano con un mensaje contundente: 'No perfecto, soy auténtico', rematado con el logo en la espalda para quienes comprenden que la perfección es una ilusión, pero la autenticidad es poder. Más que una prenda, es una postura ante la vida diseñada para quienes no solo visten una frase, sino que habitan su propia verdad con estilo y comodidad"
         },
         {
           id: 6,
           name: "Rage 2026 Premium",
           price: 20,
           media: [videoRage, Rage_20261, Rage_20262],
-          description: "Diseñada para el entorno urbano."
+          description: "Esta camisa oversize de algodón 100% redefine el estilo urbano al combinar un minimalismo impecable en el frente con un impacto visual total en la espalda, donde una imponente pantera ruge entre detalles gráficos futuristas que evocan energía, instinto y poder. Diseñada específicamente para destacar en la calle, esta prenda trasciende la moda convencional para convertirse en una declaración de pura actitud para quienes buscan dominar el entorno urbano con presencia y carácter."
         },
         {
           id: 7,
           name: "Zarpazos Beast",
           price: 20,
           media: [videoZarpasos,Zarpasos1, Zarpasos2, Zarpasos3],
-          description: "Instinto animal desatado."
+          description: "Esta pieza oversize de algodón 100% captura el momento exacto antes del ataque, utilizando un fondo azul oscuro profundo para simbolizar el enfoque absoluto mientras zarpazos en tonos eléctricos atraviesan la prenda como pura energía en movimiento. Con detalles gráficos en las mangas que refuerzan el símbolo eléctrico futurista de la marca y marcas que se expanden con fuerza en la espalda como una firma salvaje, esta camisa está diseñada para quienes buscan una presencia imponente que no pase desapercibida."
         }
       ]
     },
