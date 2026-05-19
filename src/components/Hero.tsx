@@ -1,4 +1,4 @@
-import logoHero from '../Img/BannerColecction2.jpg';
+import logoHero from '../Img/Bannermusicwebfinal.jpg';
 
 export default function Hero() {
   
